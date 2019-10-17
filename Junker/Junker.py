@@ -41,9 +41,12 @@ def Junker(msg, n):
     for x in range (0, len(subdirs)):
         for i in range (0, n):
             random.randint
-            f = open(subdirs[x] + '/' + randstring(8) + '.txt', 'w')
-            f.write(msg)
-            f.close
+            try:
+                f = open(subdirs[x] + '/' + randstring(8) + '.txt', 'w')
+                f.write(msg)
+                f.close
+            except:
+                pass
         x = x + 1
 
 
