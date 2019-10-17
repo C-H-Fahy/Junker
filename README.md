@@ -1,1 +1,1 @@
-t
+For Educational Use Only 
