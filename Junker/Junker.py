@@ -1,4 +1,4 @@
-#This Software is intended for use on your own machines, Usually for the purpose of overwriting HDDs, 
+#This Software is intended for use on your own machines, An example for a purpose this software could be used for is overwriting HDDs, 
 #It is not recommened to use this Software on other machines or data not belonging to you
 
 #Copyright 2019 Ciaran Fahy
