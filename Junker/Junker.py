@@ -54,7 +54,7 @@ def takeinput():
     try:
         msg = input('Enter message: ')
         n = int(input('Enter number of files to create in each subdir: '))
-    except:
+    except ValueError:
         takeinput()
     Junker(msg, n)
 
